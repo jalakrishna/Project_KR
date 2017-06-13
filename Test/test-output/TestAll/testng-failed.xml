@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <parameter name="DataSheetName" value="Data"/>
+  <parameter name="Region" value=""/>
+  <test name="PC(failed)">
+    <parameter name="DataSheetName" value="Data"/>
+    <parameter name="Region" value=""/>
+    <classes>
+      <class name="com.pc.driver.Driver">
+        <methods>
+          <include name="Main2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.pc.driver.Driver -->
+    </classes>
+  </test> <!-- PC(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

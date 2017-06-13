@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<suite name="Parallel test suite" parallel="tests"> 
+
+        <test name="Driver1"> 
+                <parameter name="DataSheetName" value="Data"/> 
+                <parameter name="Region" value="QA"/> 
+                <parameter name="Browser" value="ch"/>  
+                <classes> 
+                        <class name="com.pc.driver.Driver1" /> 
+                </classes> 
+        </test> 
+</suite>

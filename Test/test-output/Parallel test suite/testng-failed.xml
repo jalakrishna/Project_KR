@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel test suite]" parallel="tests">
+  <parameter name="DataSheetName" value="Data"/>
+  <parameter name="Region" value="QA"/>
+  <parameter name="Browser" value="ch"/>
+  <test name="Driver1(failed)" parallel="tests">
+    <parameter name="DataSheetName" value="Data"/>
+    <parameter name="Region" value="QA"/>
+    <parameter name="Browser" value="ch"/>
+    <classes>
+      <class name="com.pc.driver.Driver1">
+        <methods>
+          <include name="Main1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.pc.driver.Driver1 -->
+    </classes>
+  </test> <!-- Driver1(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
